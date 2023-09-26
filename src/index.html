@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>Analizador de texto</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" /> 
 </head>
-
 <body>
-  <h1> Hola, DEV012!</h1>
+  <header>
+    <h1>Analizador de texto</h1> 
+  </header>
+  <main>
+    <textarea name="user-input" rows="3" cols="70" placeholder="Escribe tu texto aquí..."></textarea>
+    <ul>
+      <li data-testid="word-count" class="Conteo">Palabras: 0</li>
+      <li data-testid="character-count" class="Conteo">Caracteres: 0</li>
+      <li data-testid="character-no-spaces-count" class="Conteo">Carácteres sin espacios: 0</li>
+      <li data-testid="number-count" class="Conteo">Números: 0</li>
+      <li data-testid="number-sum" class="Conteo">Suma números: 0</li>
+      <li data-testid="word-length-average" class="Conteo">Longitud palabras: 0</li>
+    </ul>
+    <button id="reset-button">Limpiar</button>
+  </main>
+  <footer>
+    <p>Desarrollado por Sara Arvizu</p>
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>

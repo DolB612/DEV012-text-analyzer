@@ -1,0 +1,77 @@
+
+body {
+    font-family:'Courier New', Courier, monospace
+    background-color: rgb(231, 213, 150);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el header y el footer usando selectores de tipo */
+header {
+    background-color: #e4aa2c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+  }
+
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(234, 195, 132);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+   /* Estilo para el <textarea> usando selectores de atributo */
+   textarea[name="user-input"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+  }
+
+   /* Estilo para los <li> usando selectores de clase */
+   .Conteo {
+    list-style: none;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+  }
+
+    button {
+    background-color: coffee;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+  }
+
+    /* Estilo para el <button> usando selectores de ID */
+  #reset-button{
+    background-color: #ac8758;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: #e4aa2c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 5px;
+  }
