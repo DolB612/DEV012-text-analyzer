@@ -31,7 +31,7 @@ const analyzer = {
   },
   getNumbersSum: (text) => {
      // Utilizamos una expresión regular para encontrar todos los números (enteros y decimales) en el texto
-    const numbers = text.match(/[-+]?\d*\.?\d+/g);
+    const numbers = text.match(/\b\d+(\.\d+)?\b/g);
 
     // Si no se encontraron números, devolvemos 0
     if (!numbers) {

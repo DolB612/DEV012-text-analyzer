@@ -28,9 +28,9 @@ function calcularValores(e) {
   const sumaNumeros = analyzer.getNumbersSum(texto);
   document.querySelector("li[data-testid='number-sum']").textContent = "Suma números: " + sumaNumeros;
 
-  // Longitud promedio de palabras
+  // Longitud palabras
   const longitudPromedioPalabras = analyzer.getAverageWordLength(texto);
-  document.querySelector("li[data-testid='word-length-average']").textContent = "Longitud promedio de palabras: " + longitudPromedioPalabras;
+  document.querySelector("li[data-testid='word-length-average']").textContent = "Longitud palabras: " + longitudPromedioPalabras;
   
 }
 
@@ -44,5 +44,5 @@ boton.addEventListener("click", function() {
   document.querySelector("li[data-testid='character-no-spaces-count']").textContent = "Carácteres sin espacios: 0";
   document.querySelector("li[data-testid='number-count']").textContent = "Números: 0";
   document.querySelector("li[data-testid='number-sum']").textContent = "Suma números: 0";
-  document.querySelector("li[data-testid='word-length-average']").textContent = "Longitud promedio de palabras: 0";
+  document.querySelector("li[data-testid='word-length-average']").textContent = "Longitud palabras: 0";
 });
