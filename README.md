@@ -16,6 +16,7 @@ Para el diseño del prototipo se realizó un boceto para tener una idea primaria
 
 ## Deploy 
 La aplicación web esta publicada en Github Pages en el siguiente link
+https://dolb612.github.io/DEV012-text-analyzer/src/index.html
 
 ## Pruebas
 Se prueba cada unidad de código por separado, el proyecto esta configurado para ser ejecutado en Github Action.
